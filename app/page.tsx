@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { GlassElement } from './GlassElement';
 import { detectSVGFilterSupport } from './DisplacementUtils';
-
+ 
 // ============================================
 // ICONOS SVG
 // ============================================
