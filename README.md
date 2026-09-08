@@ -1,3 +1,41 @@
+prueba-glass  
+Este es un proyecto Next.js inicializado con create-next-app.  
+
+Comenzando  
+Primero, ejecuta el servidor de desarrollo:  
+
+```bash
+npm run dev  
+# o  
+yarn dev  
+# o  
+pnpm dev  
+# o  
+bun dev
+``` 
+
+Abre http://localhost:3000 en tu navegador para ver el resultado.  
+
+Puedes comenzar a editar la página modificando `app/page.tsx`. La página se actualiza automáticamente a medida que editas el archivo.  
+
+Este proyecto utiliza `next/font` para optimizar y cargar automáticamente Geist, una nueva familia tipográfica de Vercel.  
+
+Aprende más  
+Para conocer más sobre Next.js, revisa los siguientes recursos:  
+
+- Documentación de Next.js: aprende sobre las características y API de Next.js.  
+- Aprende Next.js: un tutorial interactivo de Next.js.  
+- Repositorio de GitHub de Next.js: tus comentarios y contribuciones son bienvenidos.  
+
+Despliegue en Vercel  
+La forma más sencilla de desplegar tu aplicación Next.js es usar la plataforma Vercel, creada por los desarrolladores de Next.js.  
+
+Consulta la documentación de despliegue de Next.js para más detalles.  
+
+<br>
+<br>
+<br>
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
