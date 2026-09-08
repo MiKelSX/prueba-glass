@@ -122,6 +122,7 @@ export const GlassElement: React.FC<GlassElementProps> = ({
   }, [autoSize, applyStyles]);
 
   const handleMouseDown = (e: React.MouseEvent) => { setClicked(true); onClick?.(e); };
+  const handleTouchStart = () => { setClicked(true); };
   const handleMouseUp = () => setClicked(false);
   const handleMouseLeave = () => setClicked(false);
 
@@ -159,7 +160,7 @@ export const GlassElement: React.FC<GlassElementProps> = ({
       onMouseDown={handleMouseDown}
       onMouseUp={handleMouseUp}
       onMouseLeave={handleMouseLeave}
-      onTouchStart={handleMouseDown}
+      onTouchStart={handleTouchStart}
       onTouchEnd={handleMouseUp}
     >
       {children}

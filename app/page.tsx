@@ -136,7 +136,7 @@ const MatrixSection = () => {
   const renderGrid = () => {
     let values: number[] = [];
     let label = '';
-    let fixed = { depth: 10, strength: 80, blur: 2, radius: 20, chroma: 2 };
+    let fixed = { depth: 10, strength: 80, blur: 2, radius: 20, chroma: 2, chromaticAberration: 2 };
     switch (activeMatrix) {
       case 'depth': values = depthValues; label = 'Depth'; break;
       case 'strength': values = strengthValues; label = 'Strength'; fixed.strength = 0; break;
