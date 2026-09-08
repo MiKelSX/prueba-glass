@@ -2,8 +2,9 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: "export",
-  basePath: "/prueba-glass",
-  assetPrefix: "/prueba-glass/",
+  unoptimizedImages: true,
+  basePath: "",
+  assetPrefix: "",
 };
 
 export default nextConfig;
